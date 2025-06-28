@@ -16,7 +16,7 @@ function App() {
         <MoveToTop />
         <Home />
         <About />
-        {/* <Project /> */}
+        <Project />
         {/* <Contact /> */}
         <Footer />
       </>

@@ -2,7 +2,11 @@
   margin: 0;
   padding: 0;
 }
-
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+  box-sizing: border-box;
+}
 root {
   min-height: 100vh;
   position: relative;
@@ -383,12 +387,13 @@ button:hover {
 }
 
 .SkillBox:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
   background-color: var(--color);
   border: solid;
 }
 
 .SkilTitle {
+  font-size: 25px;
   display: block;
   align-items: center;
   justify-content: center;
@@ -422,7 +427,7 @@ button:hover {
   }
 
   .SkilTitle {
-    font-size: 70%;
+    font-size: 60%;
   }
 
 }

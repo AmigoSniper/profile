@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "lottie-react": "^2.4.0",
+    "portfolio-project": "file:",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^5.0.1",
